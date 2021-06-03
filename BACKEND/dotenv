@@ -1,0 +1,5 @@
+# Ticket: Connection
+# Rename this file to .env after filling in your CARDS_DB_URI
+# Do not surround the URI with quotes
+CARDS_DB_URI=mongodb+srv://<user>:<passwd>@<your-atlas-cluster-address>/<database-name>?retryWrites=true&w=majority
+PORT=5000

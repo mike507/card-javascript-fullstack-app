@@ -1,0 +1,20 @@
+body {
+   background-color: lightblue;
+ }
+ 
+h1 {
+   color: navy;
+}
+
+footer {
+  color: navy;
+  margin-left: 20px;
+}
+ 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

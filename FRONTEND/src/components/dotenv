@@ -1,0 +1,4 @@
+# Rename this file to .env after filling in your SERVER_URL
+# Do not surround the URI with quotes
+SERVER_URL=http://localhost:5000
+API_PATH=api/v1/cards

@@ -1,0 +1,27 @@
+<%- include("header") -%>
+
+<header class="bg-primary text-center py-5 mb-4">
+	<div class="container">
+		<h1 class="font-weight-light text-white">Mon album photo...</h1>
+	</div>
+</header>
+<div class="box">
+	<div class="container">
+		<div class="row">
+			<% newListItems.forEach(function(item){ %>
+			<div class="col-xl-3 col-md-6 mb-4">
+				<div class="card border-0 shadow">
+					<a href="<%='/cards/'+item._id%>">
+						<img src="<%=item.imageUrl%>" class="card-img-top fixeds" alt="..." />
+					</a>
+					<div class="card-body text-center">
+						<h5 class="card-title mb-0"><%= item.title %></h5>
+						<div class="card-text text-black-50"><%= item.description %></div>
+					</div>
+				</div>
+			</div>
+			<% }) %>
+		</div>
+	</div>
+</div>
+<%- include("footer") -%>
